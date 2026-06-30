@@ -1,0 +1,127 @@
+/* Stili generali del sito */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #f5f5f7;
+    background-color: #111111;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #c5a880;
+    padding: 50px 40px;
+    background-color: #161616;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Intestazione */
+.header {
+    text-align: center;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgba(197, 168, 128, 0.2);
+    padding-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 42px;
+    font-weight: 300;
+    color: #c5a880;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.header .subtitle {
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 4px;
+    color: #888888;
+    text-transform: uppercase;
+}
+
+.location {
+    font-size: 12px;
+    color: #c5a880;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+/* Sezioni Menu */
+.menu-section {
+    margin-bottom: 45px;
+}
+
+.section-title {
+    font-size: 20px;
+    color: #c5a880;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #c5a880;
+    margin: 10px auto 0 auto;
+}
+
+/* Riga del Piatto */
+.menu-item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+}
+
+.menu-item {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-right: 15px;
+}
+
+.menu-dots {
+    flex-grow: 1;
+    border-bottom: 1px dotted rgba(197, 168, 128, 0.3);
+}
+
+.menu-price {
+    text-align: right;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #c5a880;
+    font-weight: 600;
+}
+
+.menu-desc {
+    font-size: 13px;
+    color: #999999;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding-right: 40px;
+}
+
+/* Piè di pagina */
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(197, 168, 128, 0.2);
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
