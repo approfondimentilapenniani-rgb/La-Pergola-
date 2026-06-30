@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #fcfbfa; /* Avorio morbido, rilassante ed elegante */
+    background-color: #fcfbfa; /* Sfondo avorio chiaro ed elegante */
     color: #1a1a1a;
     line-height: 1.7;
     padding: 80px 20px;
@@ -34,7 +34,7 @@ body {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #7c756d; /* Elegante grigio-tortora */
+    color: #7c756d; /* Dettaglio tortora */
 }
 
 .menu-container {
@@ -88,7 +88,7 @@ body {
     max-width: 90%;
 }
 
-/* Allineamento pulito per le sole bevande */
+/* Allineamento pulito per le bevande */
 .menu-inline {
     display: flex;
     justify-content: space-between;
